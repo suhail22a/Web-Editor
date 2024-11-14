@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+}
+
+pre {
+  padding: 10px;
+  overflow: auto;
+  line-height: 1.45;
+  background-color: #ecf1f5;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background-color: #5c4389;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #743aab !important;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s;
+}
+
+.footer:hover {
+  background-color: #3a3f47;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+}
+
+.footer-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.pane {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.pane:hover {
+  transform: scale(1.05);
+}
+
+.editor-lang {
+  padding: 10px !important;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.editor-text {
+  text-align: center;
+  background-color: rgba(49, 48, 51, 0.87);
+  color: rgba(250, 230, 194, 0.972);
+  font-size: 1.2em;
+  line-height: 2;
+  justify-content: center;
+}
+
+/* Add keyframe for animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}

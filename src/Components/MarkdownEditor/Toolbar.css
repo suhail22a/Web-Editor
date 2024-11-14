@@ -1,0 +1,9 @@
+.toolbar-button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #6f5efb; /* Button hover color */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
