@@ -20,7 +20,7 @@ function Footer() {
                 <FaTwitter size={30} />
               </a>
             </div>
-            <p className="footer-text">Made with ❤️ by Suhail</p>
+            <p className="footer-text">Developed by Suhail</p>
           </Col>
         </Row>
       </Container>
